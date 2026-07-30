@@ -1,4 +1,4 @@
-# 📈 Sales Funnel Analysis | Product Analytics Case Study
+# 📈 Product Funnel Analysis | Product Analytics Case Study
 
 ## Overview
 
