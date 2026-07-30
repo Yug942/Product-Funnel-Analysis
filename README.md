@@ -73,20 +73,6 @@ Order Confirmation
 
 ---
 
-## Repository Structure
-
-```
-Sales_Funnel_Analysis/
-│
-├── Sales_Funnel_Analysis.ipynb
-├── sales_funnel_chart.png
-├── README.md
-├── requirements.txt
-└── dataset.csv
-```
-
----
-
 ## Sample Visualization
 
 <p align="center">
@@ -104,7 +90,3 @@ Sales_Funnel_Analysis/
 - Evaluate design changes using A/B testing.
 
 ---
-
-## Author
-
-Yug Prabhat
