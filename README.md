@@ -1,39 +1,110 @@
-# 📊 Sales Funnel Analysis
+# 📈 Sales Funnel Analysis | Product Analytics Case Study
 
-## 📌 Overview
-This project analyzes user drop-offs at each stage of a sales funnel, providing insights into potential areas of improvement.
+## Overview
 
-## 🗂 Dataset
-The dataset consists of user interactions at different stages of the funnel:
-1. **Home Page** → Entry point for users.
-2. **Search Page** → Users search for products/services.
-3. **Payment Page** → Users initiate the purchase process.
-4. **Confirmation Page** → Successful transaction confirmation.
-
-## 📉 Key Findings
-- **50% drop-off** from **Home Page** to **Search Page**.
-- **86.66% drop-off** from **Search Page** to **Payment Page**.
-- **92.50% drop-off** from **Payment Page** to **Confirmation Page**.
-
-These insights indicate a significant drop-off at the payment stage, suggesting potential issues with user experience or trust.
-
-## 📊 Visualization
-Below is a visualization of the user drop-off across different stages:
-
-![Sales Funnel Chart](sales_funnel_chart.png)
-
-## 🛠️ How to Run the Analysis
-### 1️⃣ Clone the Repository
-Run the following command in your terminal to clone this repository:
-
-```bash
-git clone https://github.com/andrewsatyo9/sales-funnel-analysis.git
-cd sales-funnel-analysis
-```
-
-## 🚀 Future Improvements
-- Investigate reasons for high drop-off rates.
-- Recommend UX changes to improve conversion.
-- Conduct A/B testing to measure the impact of design changes.
+This project analyzes user behavior across a multi-stage sales funnel to identify where potential customers abandon the purchase journey. The objective is to quantify conversion rates, detect high-friction stages, and provide data-driven recommendations to improve overall business performance.
 
 ---
+
+## Business Problem
+
+Although thousands of users visit the platform, only a small percentage complete a purchase. Understanding where users leave the funnel helps product and business teams prioritize improvements that can increase conversions and revenue.
+
+---
+
+## Project Objectives
+
+- Analyze user movement through each funnel stage.
+- Calculate stage-wise and overall conversion rates.
+- Identify the largest customer drop-off points.
+- Visualize the complete sales funnel.
+- Recommend product improvements based on the findings.
+
+---
+
+## Funnel Stages
+
+Home Page
+⬇
+Search
+⬇
+Payment
+⬇
+Order Confirmation
+
+---
+
+## Key Metrics
+
+| Metric | Value |
+|---------|------:|
+| Total Visitors | XXXX |
+| Overall Conversion Rate | XX% |
+| Largest Drop-off Stage | Search → Payment |
+| Funnel Completion Rate | XX% |
+
+---
+
+## Key Insights
+
+- Nearly half of all visitors leave before performing a product search, indicating low initial engagement.
+- The highest customer loss occurs between the **Search** and **Payment** stages, suggesting users struggle to find suitable products or lose intent before checkout.
+- Very few users who reach the payment page complete the transaction, indicating possible friction during checkout.
+
+---
+
+## Business Recommendations
+
+- Simplify the checkout process to reduce payment abandonment.
+- Improve search relevance and product discovery.
+- Add trust signals such as secure payment badges and customer reviews.
+- Introduce cart reminders or promotional offers for users who exit before purchase.
+- Perform A/B testing on checkout page layouts to evaluate improvements.
+
+---
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Repository Structure
+
+```
+Sales_Funnel_Analysis/
+│
+├── Sales_Funnel_Analysis.ipynb
+├── sales_funnel_chart.png
+├── README.md
+├── requirements.txt
+└── dataset.csv
+```
+
+---
+
+## Sample Visualization
+
+<p align="center">
+<img src="sales_funnel_chart.png" width="700">
+</p>
+
+---
+
+## Future Scope
+
+- Segment users by device, geography, or traffic source.
+- Build an interactive Power BI dashboard.
+- Measure customer retention across multiple visits.
+- Perform cohort analysis.
+- Evaluate design changes using A/B testing.
+
+---
+
+## Author
+
+Yug Prabhat
