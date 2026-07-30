@@ -37,6 +37,3 @@ cd sales-funnel-analysis
 - Conduct A/B testing to measure the impact of design changes.
 
 ---
-*Author: Andrew Jaya Satyo*  
-*LinkedIn: linkedin.com/in/andrew-jaya-satyo-1501992b4*  
-*Email: andrewjaya12345@gmail.com*  
