@@ -34,14 +34,10 @@ Order Confirmation
 
 ---
 
-## Key Metrics
-
-| Metric | Value |
-|---------|------:|
-| Total Visitors | XXXX |
-| Overall Conversion Rate | XX% |
-| Largest Drop-off Stage | Search → Payment |
-| Funnel Completion Rate | XX% |
+## 📉 Key Findings
+- **50% drop-off** from **Home Page** to **Search Page**.
+- **86.66% drop-off** from **Search Page** to **Payment Page**.
+- **92.50% drop-off** from **Payment Page** to **Confirmation Page**.
 
 ---
 
